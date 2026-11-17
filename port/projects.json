@@ -40,6 +40,9 @@
         "Health knowledge hub",
         "History & analytics"
       ],
+      "details" : [
+        "PurePee is a low-cost point-of-care device that reads urine test strips automatically with an RGB sensor, a camera and AI. It helps people in remote areas screen early for diabetes and kidney disease."
+      ],
       "highlights": [
         "Automated reading removes human error from visual strip inspection",
         "Non-contact operation reduces biohazard exposure for health workers",
