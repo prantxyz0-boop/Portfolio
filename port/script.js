@@ -1,9 +1,4 @@
-const title = document.querySelector(".title")
-const full = document.querySelector(".full-name")
-const faward = document.querySelector(".first")
-const saward = document.querySelector(".second")
-const taward = document.querySelector(".third")
-const detail = document.querySelector(".detail")
+const box = document.querySelector(".js")
 
 fetch("port/projects.json")
   .then((response) => {
@@ -11,31 +6,29 @@ fetch("port/projects.json")
     return response.text()
   })
 
-.then((text) => { // Step 2 · Parse the JSON 
+  .then((text) => { // Step 2 · Parse the JSON 
 
     const info = JSON.parse(text)
     console.log(info)
 
-    for (const anime of info) { 
-      const tr = document.createElement("div");
-      tr.innerHTML = `
-        <img class="pic" src="purepee.jpg" />
-        <h2 class="title">Pure Pee</h2>
-        <h3 class="full-name">Smart Urine Screening at the Point-of-Care</h3>
+    for (const d of info) {
+      const div = document.createElement("div");
+      div.innerHTML = `
+      <div class="big-box">
+        <img class="pic" src="${d.photo}" />
+        <h2 class="title">${d.title}</h2>
+        <h3 class="full-name">${d.subtitle}</h3>
         <ul>
           🏆-Awards
-          <li class="first">Special Award · MIIC 2025</li>
-          <li class="second">Silver Award · New Gen 2025</li>
-           <li class="third">Copper Award · TU Awards</li>
+          <li class="first">${d.award1}</li>
+          <li class="second">${d.award2}</li>
+           <li class="third">${d.award3}</li>
         </ul>
         <div style="justify-content: center; align-items: center; text-align: center;">
-        <h4 class="detail">
-          PurePee is a low-cost point-of-care device that reads urine test
-          strips automatically with an RGB sensor, a camera and AI. It helps
-          people in remote areas screen early for diabetes and kidney disease.
-        </h4>
+          <h4 class="detail">${d.details}</h4>
         </div>
+      </div>
     `;
-    rows.append(tr);
+      box.append(div);
     }
   });

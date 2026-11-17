@@ -1,10 +1,11 @@
 body, html {
     margin: 0;
     background: url("photo/wallpaper.jpg");
-    height: 100%;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overscroll-behavior: none;
 }
 
 .container{
@@ -57,6 +58,7 @@ h1{
     grid-template-columns: auto auto auto;
 }
 
+
 .sort{
     justify-content: center;
     align-items: center;
@@ -79,6 +81,7 @@ h1{
     -webkit-backdrop-filter: blur(6.6px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     grid-template-columns: auto auto auto;
+    margin-top: 50px;
 }
 
 .pic{
