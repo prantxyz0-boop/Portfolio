@@ -173,3 +173,8 @@ button{
     margin-right: 150px;
     font-size: 23px;
 }
+
+.back{
+    display: flex;
+    justify-content: center;
+}
