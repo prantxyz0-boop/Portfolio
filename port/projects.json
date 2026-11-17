@@ -1,7 +1,7 @@
 [
   {
     "id": "purepee",
-    "photo": "purepee.jpg",
+    "photo": "port/photo/purepee.jpg",
     "title": "PurePee",
     "subtitle": "Smart Urine Screening at the Point-of-Care (POC)",
     "title_th": "PurePee – ระบบคัดกรองปัสสาวะอัจฉริยะ ณ จุดบริการ",
@@ -71,7 +71,7 @@
   },
   {
     "id": "scam-checker-cally",
-    "photo": "calljpg.jpg",
+    "photo": "port/photo/calljpg.jpg",
     "title": "Scam Checker & Cally",
     "award1": "Gold Award · MCC",
     "award2": "Silver Award · New Gen 2025",
