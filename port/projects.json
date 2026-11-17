@@ -1,0 +1,120 @@
+{
+  "projects": [
+    {
+      "id": "purepee",
+      "title": "PurePee",
+      "subtitle": "Smart Urine Screening at the Point-of-Care (POC)",
+      "title_th": "PurePee – ระบบคัดกรองปัสสาวะอัจฉริยะ ณ จุดบริการ",
+      "category": "Health Innovation / MedTech",
+      "competition": {
+        "name": "Medical Innovation Idea Challenge (MIIC)",
+        "level": "Secondary school (ระดับมัธยมศึกษา)",
+        "year": 2025
+      },
+      "award-1": "Special Award · MIIC 2025",
+      "award-2": "Silver Award · New Gen 202",
+      "award-3": "Copper Award · TU Awards",
+      "team": [
+        "Jirapak Arunkulwatthana",
+        "Kantaporn Ketchuarung",
+        "Prant Lekprayura"
+      ],
+      "advisor": "Weeraphol Lapkerd (วีรพล ลาภเกิด)",
+      "school": "Prasarnmit Demonstration School (Secondary), Srinakharinwirot University",
+      "problem": "589 million people live with diabetes worldwide and 43% (252 million) are undiagnosed. People in remote areas lack nearby equipment and medical staff, face travel costs and lost income, and usually only get checked once symptoms appear.",
+      "solution": "A point-of-care device that reads urine test strips automatically with an RGB sensor and camera, analyzes the colors with AI against a color reference patch, and sends results to a mobile/web app over Bluetooth.",
+      "workflow": [
+        "Scan ID",
+        "Collect urine into the test strip's sample port",
+        "Wait 60 seconds",
+        "Hybrid reading: RGB sensor scan + camera capture",
+        "AI analysis and cross-check against medical standards",
+        "Generate health result and send to the app"
+      ],
+      "app_features": [
+        "Sign in & authentication",
+        "Overview dashboard",
+        "Hybrid dual-scanning",
+        "Find care & referral",
+        "Profile & assessment status",
+        "Health knowledge hub",
+        "History & analytics"
+      ],
+      "highlights": [
+        "Automated reading removes human error from visual strip inspection",
+        "Non-contact operation reduces biohazard exposure for health workers",
+        "Cost per test about 0.30–0.75 USD vs 13.4–44.68 USD for a lab test",
+        "Screening data can support national health planning (SDG 3)"
+      ],
+      "tech_stack": [
+        "Arduino",
+        "TCS34725 RGB sensor",
+        "Camera module",
+        "Servo motors (MG90S)",
+        "Relay + pump",
+        "Bluetooth",
+        "AI / machine learning",
+        "Web application"
+      ],
+      "tags": ["Healthcare", "IoT", "AI", "Hardware", "Diabetes screening"],
+      "images": [],
+      "links": {}
+    },
+    {
+      "id": "scam-checker-cally",
+      "title": "Scam Checker & Cally",
+      "subtitle": "AI-powered app to prevent phone scams targeting tourists",
+      "title_th": "แอปพลิเคชันเพื่อป้องกันการหลอกลวงทางโทรศัพท์โดยเทคโนโลยีปัญญาประดิษฐ์",
+      "category": "Cybersecurity / Tourism & Creative Economy",
+      "competition": {
+        "name": "Thailand New Gen Inventors Award (I-New Gen Award) 2026",
+        "organizer": "National Research Council of Thailand (NRCT / วช.)",
+        "group": "Tourism and Creative Economy (กลุ่มการท่องเที่ยวและเศรษฐกิจสร้างสรรค์)",
+        "year": 2026
+      },
+      "award": "",
+      "team": [
+        "Prant Lekprayura (ปรานต์ เล็กประยูร)"
+      ],
+      "advisor": "Weeraphol Lapkerd (วีรพล ลาภเกิด)",
+      "school": "Prasarnmit Demonstration School (Secondary), Srinakharinwirot University",
+      "problem": "Thailand welcomed 26.7 million foreign tourists in the first 10 months of 2025, but phone scams and fake accommodation bookings are eroding tourists' trust and Thailand's image.",
+      "solution": "A web app (Scam Checker) and AI voice app (Cally) that let tourists check phone numbers, messages and accommodations before they transact. Tourists simply scan a QR code at airports or hotels to open it — no install needed.",
+      "workflow": [
+        "Tourist scans a QR code at an airport or hotel to open the web app",
+        "Choose a feature: phone number check, scammer database, or Hotel Scraper",
+        "System assesses risk and shows Safe / Risky / In database",
+        "Hotel Scraper compares real contact info (phone, Facebook) of verified hotels"
+      ],
+      "app_features": [
+        "Cally: AI voice and text analysis to detect scam patterns",
+        "Real-time suspicious number checking with ML",
+        "Hotel Scraper: pulls verified hotel contact details",
+        "Central scammer database (phone numbers / bank accounts)",
+        "Admin log and user scam reports to improve the database"
+      ],
+      "highlights": [
+        "No app install — accessible via QR code",
+        "ML models: Logistic Regression, Random Forest and SVM",
+        "Free public service aimed at boosting tourist confidence",
+        "Business model as a social enterprise / public service"
+      ],
+      "tech_stack": [
+        "Python",
+        "Scikit-learn",
+        "NLP",
+        "Speech analysis",
+        "Web application",
+        "Web scraping",
+        "QR code"
+      ],
+      "tags": ["AI", "Cybersecurity", "Tourism", "Machine Learning", "Web App"],
+      "images": [],
+      "links": {
+        "cally_app": "",
+        "scam_checker_web": "",
+        "how_to_use": ""
+      }
+    }
+  ]
+}

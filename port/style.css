@@ -9,16 +9,15 @@ body, html {
 
 .container{
     display: flex;
+    align-items: center;
     margin-top: 20px;
     justify-content: center;
     text-align: center;
-    height: 100vh;
 }
 
 .box{
-    display: flex; 
-    width: 1500px;
-    height: 200px;
+    width: 800px;
+    height: 250px;
     border-radius:5%;
     background: rgba(228, 228, 228, 0.23);
     border-radius: 16px;
@@ -30,9 +29,23 @@ body, html {
     justify-content: center;
 }
 
+h1{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box-row{
+    margin-top: 5px;
+    gap:10px;
+    display: flex;
+    justify-content: center;
+}
+
 .little-box{   
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 75px;
     border-radius:5%;
     background: rgba(255, 255, 255, 0.25);
     border-radius: 16px;
@@ -42,31 +55,90 @@ body, html {
     border: 1px solid rgba(255, 255, 255, 0.3);
     grid-template-columns: auto auto auto;
 }
-h1{
-    font-size: 100px;
+
+.sort{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 42px;
+    text-align: center;
 }
 
-.text{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 20px;
-}
-.profile-pic{
-    margin-top: 40px;
-    width: 300px;
-    height: 300px;
-    box-shadow: rgba(17, 0, 255, 0.24) 0px 3px 8px;
-    border-radius: 10%
+.big-box{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: warp;
+    background-color: white;
+    width: 1375px;
+    height: 550px;
+    border-radius:5%;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    grid-template-columns: auto auto auto;
 }
 
-.nickname{
-    font-size: 70px;
-    margin-top: 2px;
-    margin-bottom: 0px;
-    color: rgb(255, 250, 250);
-    text-shadow: 0 0 5px rgb(50, 106, 158), 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(22, 12, 92);
-    font-family: 'Courier New', Courier, monospace,
-    
+.pic{
+    border-radius: 10%;
+    width: 500px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+ul{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+li{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.des{
+    width: 10px;
+    height: 10px;
+}
+
+h4{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 17px;
+}
+
+button{
+    margin-top: 1px;
+    margin-left: 600px;
+    width: 100px;
+    height: 50px;
+    border-radius:5%;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    grid-template-columns: auto auto auto;
+
+
 }
 
 .info{
@@ -75,28 +147,4 @@ h1{
     font-style: italic;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 25px;
-}
-
-.devs{
-    color: rgb(90, 167, 215);
-    font-style: italic;
-    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(16, 73, 85), 0 0 20px rgb(255, 255, 255);
-}
-
-.little-disc{
-   font-size: 20px; 
-   font-style: oblique;
-   margin-top: 9px;
-   font-family: 'Courier New', Courier, monospace;
-}
-
-i{
-    font-size: 50px;
-    grid-template-columns: auto auto auto;
-    color: white;
-}
-
-.show{
-    color: black;
-    transition: ease-in-out 0.3s;
 }
