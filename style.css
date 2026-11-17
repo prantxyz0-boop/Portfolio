@@ -1,6 +1,47 @@
-.card{
-    background-color: black;
-    width: 300px;
-    height: 200px;
+body, html {
+    margin: 0;
+    background: url("photo/wallpaper.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.card{
+    width: 600px;
+    height: 600px;
+    border-radius:5%;
+    background: rgba(228, 228, 228, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.3px);
+    -webkit-backdrop-filter: blur(3.3px);
+    border: 1px solid rgba(228, 228, 228, 0.67);
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.profile-pic{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    box-shadow: rgba(17, 0, 255, 0.24) 0px 3px 8px;
+    border-radius: 10%
+}
+
+h3{
+    font-size: 50px;
+    margin-top: 8px;
+    font-family: Trebuchet MS, sans-serif;
 }
