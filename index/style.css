@@ -61,7 +61,7 @@ body, html {
 .devs{
     color: rgb(90, 167, 215);
     font-style: italic;
-    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(16, 73, 85), 0 0 20px rgb(0, 0, 0);
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(16, 73, 85), 0 0 20px rgb(255, 255, 255);
 }
 
 .little-disc{
