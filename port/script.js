@@ -10,9 +10,11 @@ fetch("port/projects.json")
 
     const info = JSON.parse(text)
     console.log(info)
+    let count = 0
 
     for (const d of info) {
       const div = document.createElement("div");
+      div.getElementsByClassName(count)
       div.innerHTML = `
       <div class="big-box">
         <img class="pic" src="${d.photo}" />
@@ -29,6 +31,26 @@ fetch("port/projects.json")
         </div>
       </div>
     `;
+      count = count + 1
       box.append(div);
     }
   });
+
+const back = document.querySelector(".hover")
+const glass = document.querySelector(".big-box")
+const glass2 = document.querySelector("#1")
+const glass3 = document.querySelector("#2")
+
+const a = [glass,back,glass2,glass3]
+
+for (const i of a){
+    i.addEventListener("mouseenter", function() {
+      i.classList.add("show")
+      i.classList.remove("unshow")
+    })
+
+    i.addEventListener("mouseleave", function() {
+      i.classList.remove("show")
+      i.classList.add("unshow")
+    })
+}
