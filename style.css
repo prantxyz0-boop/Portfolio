@@ -33,15 +33,51 @@ body, html {
     font-size: 20px;
 }
 .profile-pic{
-    margin-top: 20px;
+    margin-top: 40px;
     width: 300px;
     height: 300px;
     box-shadow: rgba(17, 0, 255, 0.24) 0px 3px 8px;
     border-radius: 10%
 }
 
-h3{
+.nickname{
+    font-size: 70px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    color: rgb(255, 250, 250);
+    text-shadow: 0 0 5px rgb(50, 106, 158), 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(22, 12, 92);
+    font-family: 'Courier New', Courier, monospace,
+    
+}
+
+.info{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 25px;
+}
+
+.devs{
+    color: rgb(90, 167, 215);
+    font-style: italic;
+    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(16, 73, 85), 0 0 20px rgb(0, 0, 0);
+}
+
+.little-disc{
+   font-size: 20px; 
+   font-style: oblique;
+   margin-top: 9px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+i{
     font-size: 50px;
-    margin-top: 8px;
-    font-family: Trebuchet MS, sans-serif;
+    grid-template-columns: auto auto auto;
+    color: white;
+}
+
+.show{
+    color: black;
+    transition: ease-in-out 0.3s;
 }
