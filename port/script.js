@@ -37,20 +37,14 @@ fetch("port/projects.json")
   });
 
 const back = document.querySelector(".hover")
-const glass = document.querySelector(".big-box")
-const glass2 = document.querySelector("#1")
-const glass3 = document.querySelector("#2")
 
-const a = [glass,back,glass2,glass3]
 
-for (const i of a){
-    i.addEventListener("mouseenter", function() {
-      i.classList.add("show")
-      i.classList.remove("unshow")
-    })
+back.addEventListener("mouseenter", function() {
+          back.classList.add("show")
+          back.classList.remove("unshow")
+})
 
-    i.addEventListener("mouseleave", function() {
-      i.classList.remove("show")
-      i.classList.add("unshow")
-    })
-}
+back.addEventListener("mouseleave", function() {
+          back.classList.remove("show")
+          back.classList.add("unshow")
+})
